@@ -1,0 +1,96 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 2rem;
+    background: var(--second-bg-color);
+    padding: 2rem 7%;
+}
+
+.about .aboutMe{
+    text-align: center;
+    position: relative;
+}
+.aboutMe img{
+    /* max-width: 400px; */
+    height: auto;
+}
+
+.aboutContent{
+    padding-right:  3rem;
+}
+
+.aboutContent h3{
+    color: var(--hover-color);
+    font-weight: 700;
+    font-size: var(--normal-font);
+}
+.aboutContent h4{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.aboutContent p{
+    color: #fdfdfd;
+    font-weight: 300;
+    margin-bottom: 1.8rem;
+    text-align: justify;
+}
+
+.experience1,
+.experience2,
+.experience3{
+    background: var(--bg-color);
+    font-size: 0.9rem;
+    position: absolute;
+    padding: 0.8rem;
+    width: 90px;
+    border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    display: block;
+    box-shadow: var(--neon-box-shadow);
+    border: 1px solid var(--hover-color);
+    outline: 2px solid var(--bg-color);
+    z-index: 100;
+    animation: morph 6s linear infinite;
+    cursor: pointer;
+}
+
+.experience1{
+    left: 10%;
+    top: 34%;
+}
+.experience2{
+    left: 66%;
+    top: 15%;
+}
+.experience3{
+    left: 61%;
+    top: 80%;
+}
+
+.aboutMe span{
+    color: var(--hover-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+
+
+/* ********************** KeyFrames ****************** */
+@keyframes morph{
+    0%, 100%{
+        border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    }
+    30%{
+        border-radius: 70% 30% 50% 50% / 30% 30% 70% 50%;
+    }
+    60%{
+        border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    }
+    80%{
+        border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
+    }
+}

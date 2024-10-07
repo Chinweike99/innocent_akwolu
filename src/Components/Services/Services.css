@@ -1,0 +1,79 @@
+.services{
+    padding: 2rem 7%;
+}
+
+.mainText{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--hover-color);
+}
+
+.mainText h2{
+    font-weight: 700;
+    font-size: var(--normal-font);
+    margin: 0.5rem auto;
+}
+
+.mainText span{
+    color: #fdfdfd;
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.serviceSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 2rem;
+}
+
+.serviceSection .serviceBox{
+    margin-top: 2rem;
+    flex: 1 1 18rem;
+    padding: 2rem 1rem 2rem;
+    text-align: center;
+    background: var(--second-bg-color);
+    transition: transform 0.4s;
+    border-radius: 10px;
+}
+
+.serviceBtn{
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.serviceBox:hover{
+    transform: translateY(-.7rem);
+    cursor: pointer;
+}
+
+.serviceIcon{
+    border: 2px solid var(--hover-color);
+    padding: 1rem;
+    font-size: 4rem;
+    background: var(--bg-color);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 50%;
+    position: relative;
+    color: var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+    outline: 3px solid var(--bg-color);
+}
+.serviceBox h3{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.serviceBox p{
+    margin: 0.5rem 0 1.5rem 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+    line-height: 1.4;
+    text-align: justify;
+}
