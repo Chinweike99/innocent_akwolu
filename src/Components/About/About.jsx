@@ -5,7 +5,7 @@ import { assets } from '../../assets/assets'
 const About = () => {
   return (
     <div id='about' className='about'>
-       <div className='aboutMe'>
+        <div className='aboutMe'>
             <img src={assets.profileImage} alt="" />
             <div className='experience1'>
                 <span>2+</span>

@@ -19,7 +19,7 @@ const Header = () => {
             <ul className='navlist'>
                 <li> <AnchorLink className="anchorLink" offset={200} href="#home"><a>Home</a></AnchorLink> </li>
                 <li> <AnchorLink className="anchorLink" offset={50} href="#about"><a >About</a></AnchorLink> </li>
-           l    <li> <AnchorLink className="anchorLink" offset={50} href="#services"><a >Services</a></AnchorLink> </li>
+                <li> <AnchorLink className="anchorLink" offset={50} href="#services"><a >Services</a></AnchorLink> </li>
                 <li> <AnchorLink className="anchorLink" offset={50} href="#skills"><a>Skills</a></AnchorLink> </li>
                 <li> <AnchorLink className="anchorLink" offset={280} href="#portfolio"><a>Portfolio</a></AnchorLink> </li>
                 <li> <AnchorLink className="anchorLink" offset={50} href="#contact"><a>Contact</a></AnchorLink> </li>

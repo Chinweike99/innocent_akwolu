@@ -2,6 +2,7 @@ import React from 'react'
 import "./Profile.css"
 import { assets } from '../../assets/assets.js'
 
+
 const Profile = () => {
   return (
     <div>

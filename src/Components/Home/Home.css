@@ -157,6 +157,14 @@ a.btn:nth-child(2):hover{
         align-items: center;
         justify-content: center;
     }
+    .homeContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .changeText, p, .infoBox{
+        align-self: self-start;
+    }
     .homeContent h1{
         font-size: 1.4rem;
     }
