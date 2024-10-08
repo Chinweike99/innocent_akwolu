@@ -22,3 +22,9 @@
   .liquidShape:nth-child(2){
     filter: blur(60px);
   }
+
+  @media screen and (max-width: 720px){
+    .imageBox img{
+        width: 25rem;
+    }
+  }

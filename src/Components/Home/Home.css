@@ -43,7 +43,7 @@
 .btnBox{
     display: flex;
     gap: 1.5rem;
-    width: 320ox;
+    /* width: 320ox; */
     height: 45px;
 }
 .btnBox a.btn{
@@ -146,4 +146,30 @@ a.btn:nth-child(2):hover{
 
   .liquidShape:nth-child(2){
     filter: blur(60px);
+  }
+
+  
+
+  @media screen and (max-width: 720px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .homeContent h1{
+        font-size: 1.4rem;
+    }
+    .btnBox a.btn{
+        width: 120px;
+        height: 100%;
+        font-size: 1rem;
+    }
+    .socialsIcon{
+        height: 30px;
+    }
+    
+    .socialsIcon a{
+        width: 40px;
+    }
   }

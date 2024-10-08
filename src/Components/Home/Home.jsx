@@ -34,7 +34,7 @@ const Home = () => {
             </div>
 
             <div className="socialsIcon">
-                <a href="" className="socials"><FacebookIcon /></a>
+                <a href="" className="socials"><FacebookIcon className="icon"/></a>
                 <a href="" className="socials"><WhatsAppIcon /> </a>
                 <a href="" className="socials"><XIcon /> </a>
                 <a href="" className="socials"><LinkedInIcon /> </a>
