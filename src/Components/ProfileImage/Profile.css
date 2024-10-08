@@ -28,3 +28,9 @@
         width: 25rem;
     }
   }
+
+  @media (min-width: 720px) and (max-width: 1200px){
+    .imageBox img{
+      width: 25rem;
+  }
+  }

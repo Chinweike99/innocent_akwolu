@@ -24,6 +24,8 @@ span{
 }
 .navlist{
     display: flex;
+    text-align: center;
+    margin-top: 0.3rem;
 }
 .navlist li{
     cursor: pointer;
@@ -95,5 +97,16 @@ span{
     }
     .logo{
         font-size: 1.3rem;
+    }
+}
+@media (min-width: 720px) and (max-width: 1200px){
+    .navlist a{
+        color: var(--text-color);
+        font-weight: 600;
+        padding: 8px;
+        font-size: 1.1rem;        
+    }
+    .logo{
+        margin-right: 1.3rem;
     }
 }

@@ -110,3 +110,12 @@
         padding: 0.5rem 1.2rem;
     }
 }
+
+@media (min-width: 720px) and (max-width: 1200px){
+    .footerTopRight{
+        width: 100%;
+    }
+    .subscribe{
+        padding: 0.8rem 1rem;
+    }
+}

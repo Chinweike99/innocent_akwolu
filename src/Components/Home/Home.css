@@ -181,3 +181,10 @@ a.btn:nth-child(2):hover{
         width: 40px;
     }
   }
+
+  @media (min-width: 720px) and (max-width: 1200px){
+    .home{
+        grid-gap: 2rem;
+    }
+  }
+
