@@ -29,7 +29,7 @@ const Home = () => {
             </div>
 
             <div className="btnBox">
-                <a href="#" className='btn'>Download CV </a>
+                <a href="#" className='btn'>Download cv </a>
                 <a href="#" className="btn">Hire me</a>
             </div>
 
