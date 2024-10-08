@@ -10,9 +10,6 @@ const Portfolio = () => {
   }
 
 
-
-
-
   return (
     <div className='portfolio'>
       <div className='mainText'>

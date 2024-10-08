@@ -160,3 +160,14 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 720px){
+    .skills .mainText{
+        margin-bottom: 2rem;
+    }
+    .mainSkill{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

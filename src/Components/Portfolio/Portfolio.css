@@ -9,6 +9,7 @@
     justify-content: center;
     gap: 2rem;
 }
+
 .filterButtons .btn{
     background: none;
     outline: none;
@@ -110,4 +111,16 @@
 }
 .projectInfo span:first-child{
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 720px){
+    .filterButtons{
+        gap: 1rem;
+    }
+    .filterButtons .btn{
+        font-size: 1rem;
+        letter-spacing: 2px;
+        color: var(--text-color);
+    }
+    
 }
