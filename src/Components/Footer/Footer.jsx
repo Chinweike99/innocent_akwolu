@@ -37,7 +37,7 @@ const Footer = () => {
 
         <hr />
             <div className="footerBottom">
-                <p className="footerBottomLeft">©{recentDate} Akwolu Innocent. All rights reserved.</p>
+                <p className="footerBottomLeft">©{recentDate} Akwolu Innocent Chinweike. All rights reserved.</p>
 
                 <div className="footerBottomRight">
                     <p>Term of Service</p>

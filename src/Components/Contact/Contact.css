@@ -151,5 +151,24 @@
         align-items: start;
         gap: 1rem;
     }
-    
+    .contactLeft p{
+        /* width: 550px; */
+        color: #D8D8D8;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .contactRight label{
+        font-size: 1rem;
+    }
+    .contactRight input{
+        height: 2.6rem;
+        font-size: 0.9rem;
+    }
+    .contactRight textarea{
+        font-size: 0.9rem;
+    }
+    .contactRight .contactSubmit{
+        height: 2.5rem;
+        font-size: 1rem;
+    }
 }

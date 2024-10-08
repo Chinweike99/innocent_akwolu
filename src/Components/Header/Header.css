@@ -93,4 +93,7 @@ span{
     .menuIcon{
         display: block;
     }
+    .logo{
+        font-size: 1.3rem;
+    }
 }

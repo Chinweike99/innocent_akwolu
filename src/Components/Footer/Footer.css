@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 .footerTop{
     display: flex;
@@ -75,4 +75,38 @@
     display: flex;
     gap: 2rem;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 720px){
+    .footerTop{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .footerTopRight{
+        width: 100%;
+    }
+    .footerBottom{
+        flex-direction: column-reverse;
+        font-size: 0.6rem;
+    }
+    .footerBottomLeft{
+        text-align: center;
+        align-self: center;
+    }
+    .footerTopLeft{
+        font-size: 0.9rem;
+    }
+
+    .footerEmailInput{
+        padding: 0.3rem 0.7rem;
+    }
+    .footerEmailInput input{
+        height: 1rem;
+        padding: 0.8rem ;
+        font-size: 0.9rem;
+    }
+    .subscribe{
+        padding: 0.5rem 1.2rem;
+    }
 }
