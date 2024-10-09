@@ -1,0 +1,29 @@
+.circular-progress {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .circular-progress-svg {
+    transform: rotate(-90deg); /* Rotate to start progress from the top */
+  }
+  
+  .circular-progress-background {
+    stroke: #e6e6e6; /* Background of the progress bar */
+  }
+  
+  .circular-progress-bar {
+    stroke: var(--hover-color); /* Color of the progress bar */
+    stroke-linecap: round; /* Rounded edges */
+    transition: stroke-dashoffset 1.5s ease; /* Smooth animation for progress fill */
+    box-shadow: var(--neon-box-shadow);
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: #333;
+  }
+  

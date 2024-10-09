@@ -7,11 +7,14 @@ import Home from './Components/Home/Home';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Services from './Components/Services/Services';
 import Skills from './Components/Skills/Skills';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
   return (
     <div className="App">
+      <ToastContainer />
       <Header />
       <Home />
       <About />

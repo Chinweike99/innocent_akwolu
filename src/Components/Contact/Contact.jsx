@@ -1,11 +1,36 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Contact.css'
 import RoomOutlinedIcon from '@mui/icons-material/RoomOutlined';
 import AlternateEmailOutlinedIcon from '@mui/icons-material/AlternateEmailOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 
 const Contact = () => {
+
+    const notify = () => toast("Message Sucesful!");
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs
+          .sendForm('service_rxxipfn', 'template_q9z3mvx', form.current, {
+            publicKey: 'FqH2gebxDzRG5hqvo',
+          })
+          .then(
+            () => {
+              console.log('SUCCESS!');
+            },
+            (error) => {
+              console.log('FAILED...', error.text);
+            },
+          );
+      };
+
+
+
   return (
     <div id='contact' className='contact'>
         <div className="mainText">
@@ -34,17 +59,17 @@ const Contact = () => {
                 </div>
             </div>
 
-           <form className="contactRight">
+           <form ref={form} onSubmit={sendEmail} className="contactRight">
                 <label htmlFor="">Your name</label>
-                <input type="text"  placeholder='Enter your name' name='name'/>
+                <input type="text"  placeholder='Enter your name' name="user_name"/>
 
                 <label htmlFor="">Your email</label>
-                <input type="text" placeholder='Enter your email address' name='email'/>
+                <input type="text" placeholder='Enter your email address' name="user_email"/>
 
                 <label htmlFor="">Write your message</label>
                 <textarea name="message" rows={"10"} placeholder='Enter your message'></textarea>
 
-                <button type='submit' className='contactSubmit'>Submit</button>
+                <button type='submit' onClick={notify} value="Send" className='contactSubmit'>Submit</button>
            </form>
         </div>
 

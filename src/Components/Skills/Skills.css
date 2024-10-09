@@ -139,7 +139,7 @@
 }
 
 .box .text big{
-    /* font: 400; */
+    font-weight: 600;
     letter-spacing: 1px;
     position: absolute;
     top: 40%;
@@ -148,18 +148,22 @@
 }
 .box .text small{
     display: block;
-    font-weight: 600;
+    letter-spacing: 0.15rem;
     margin-top: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .circle{
     width: 100%;
     height: 120px;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+
 
 @media screen and (max-width: 720px){
     .skills .mainText{
@@ -179,5 +183,8 @@
     }
     .leftSkill .skillBar .skillInfo{
         font-size: 0.9rem;
-    }    
+    }   
+    .box .text small{
+        font-size: 0.9rem;
+    }
 }
