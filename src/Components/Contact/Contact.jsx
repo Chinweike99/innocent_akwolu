@@ -8,6 +8,9 @@ import { toast } from 'react-toastify';
 
 
 const Contact = () => {
+    const serviceId = process.env.REACT_APP_SERVICEID;
+    const templateId = process.env.REACT_APP_TEMPLATEID;
+    const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 
     const notify = () => toast("Message Sucesful!");
     const form = useRef();
@@ -16,8 +19,11 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs
-          .sendForm('service_rxxipfn', 'template_q9z3mvx', form.current, {
-            publicKey: 'FqH2gebxDzRG5hqvo',
+          // .sendForm('service_rxxipfn', 'template_q9z3mvx', form.current, {
+          //   publicKey: 'FqH2gebxDzRG5hqvo',
+          // })
+          .sendForm(serviceId, templateId, form.current, {
+            publicKey: publicKey
           })
           .then(
             () => {
@@ -27,8 +33,10 @@ const Contact = () => {
               console.log('FAILED...', error.text);
             },
           );
+          return form.current.reset();
       };
 
+      console.log(serviceId, templateId, publicKey);
 
 
   return (

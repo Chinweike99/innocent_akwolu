@@ -8,8 +8,9 @@ const Services = () => {
   return (
     <div id='services' className='services'>
         <div className="mainText">
-            <span>What i would do for you</span>
-            <h2>Our Services</h2>
+        <h2>SERVICES</h2>
+            <span>What i would do for you.</span>
+            
         </div>
 
         <div className="serviceSection">
@@ -17,31 +18,26 @@ const Services = () => {
                 <LaptopMacIcon className='serviceIcon'/>
                 <h3>Web Development</h3>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget arcu vitae neque semper fermentum hendrerit quis massa. Sed vel magna neque. Integer in velit ut neque fermentum congue in a justo. Quisque neque sapien, maximus sit amet tempus et, interdum nec est. Nulla facilisi. Quisque dapibus et nisl in convallis. Ut rutrum eget velit in aliquet. 
+                I develop modern web applications using HTML, CSS, and JavaScript, with a focus on React.js within the MERN stack (MongoDB, Express, React, Node.js).
                 </p>
-                <div className='btnBox serviceBtn'>
+                {/* <div className='btnBox serviceBtn'>
                     <a href="" className="btn">Read more</a>
-                </div>
+                </div> */}
             </div>
             <div className="serviceBox">
                 <CodeIcon  className='serviceIcon'/>
-                <h3>Web Development</h3>
+                <h3>Performance Optimization</h3>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget arcu vitae neque semper fermentum hendrerit quis massa. Sed vel magna neque. Integer in velit ut neque fermentum congue in a justo. Quisque neque sapien, maximus sit amet tempus et, interdum nec est. Nulla facilisi. Quisque dapibus et nisl in convallis. Ut rutrum eget velit in aliquet. 
+                I create websites optimized for high search engine rankings (SEO) and performance. By implementing best practices in SEO and speed optimization, I ensure faster load times, better user experiences, and improved visibility in search engines.
                 </p>
-                <div className='btnBox serviceBtn'>
-                    <a href="" className="btn">Read more</a>
-                </div>
+                
             </div>
             <div className="serviceBox">
                 <LayersIcon  className='serviceIcon'/>
                 <h3>Web Development</h3>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget arcu vitae neque semper fermentum hendrerit quis massa. Sed vel magna neque. Integer in velit ut neque fermentum congue in a justo. Quisque neque sapien, maximus sit amet tempus et, interdum nec est. Nulla facilisi. Quisque dapibus et nisl in convallis. Ut rutrum eget velit in aliquet. 
+                I'm passionate about web development and eager to learn and grow with others. I offer training and consultation in front-end development and the MERN stack. While new to teaching, I'm excited to share what I know and help others. For now, I'm offering free sessions, and look forward to growing together through collaboration.
                 </p>
-                <div className='btnBox serviceBtn'>
-                    <a href="" className="btn">Read more</a>
-                </div>
             </div>
         </div>
     </div>

@@ -1,43 +1,45 @@
 import React from 'react'
 import './Home.css'
-import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { assets } from '../../assets/assets';
+// import { assets } from '../../assets/assets';
 import Profile from '../ProfileImage/Profile';
 
 const Home = () => {
   return (
     <div id='home' className='home'>
         <div className='homeContent'>
-            <h1>Hi!, i'm Akwolu Innocent Chinweike</h1>
-            <div className='changeText'>
-                <h3>And i'm</h3>
+            <h1>Hello 👋!. </h1>
+            {/* <div className='changeText'>
                 <h3>
-                    <span className='word'>Frontend Developer</span>
+                    <span className='word'></span>
                 </h3>
-            </div>
+            </div> */}
 
-            <p>write briefly about you</p>
+            <p>I’m Chinweike, a software developer from Nigeria. <br /> I specialize in front-end development but also have experience building full-stack web applications using the MERN stack.</p>
 
-            <div className='infoBox'>
+            {/* <div className='infoBox'>
                 <div className='emailInfo'>
                     <h5>Email</h5>
                     <span>chinweiketwitter@gmail.com</span>
                 </div>
-            </div>
+            </div> */}
 
             <div className="btnBox">
-                <a href="#" className='btn'>Download cv </a>
-                <a href="#" className="btn">Hire me</a>
+                <a className='btn'>Download cv </a>
+                <a className="btn">Hire me</a>
             </div>
 
             <div className="socialsIcon">
-                <a href="" className="socials"><FacebookIcon className="icon"/></a>
-                <a href="" className="socials"><WhatsAppIcon /> </a>
-                <a href="" className="socials"><XIcon /> </a>
-                <a href="" className="socials"><LinkedInIcon /> </a>
+                <a href="https://github.com/Chinweike99" target="_blank" className="socials"><GitHubIcon className="icon"/></a>
+
+                <a href="https://wa.me/2349166330306" target="_blank" className="socials"><WhatsAppIcon /> </a>
+
+                <a href="https://x.com/Chinwe_script" target="_blank" className="socials"><XIcon /> </a>
+
+                <a href="https://www.linkedin.com/in/innocent-akwolu-5096a5238/" target="_blank" className="socials"><LinkedInIcon /> </a>
             </div>
 
         </div>
