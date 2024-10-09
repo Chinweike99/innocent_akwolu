@@ -1,4 +1,4 @@
-import { Route, Router } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
@@ -11,22 +11,28 @@ import Skills from './Components/Skills/Skills';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Aboutme from './Components/AboutMe/Aboutme';
+import MainHome from './Components/MainHome/MainHome';
 
 
 function App() {
   return (
     <div className="App">
-      <Router>
-          <Route path='/aboutme'  element={<Aboutme />}/>
-      </Router>
       <ToastContainer />
-      <Header />
-      <Home />
+      {/* <Header /> */}
+      <Routes>
+        <Route path='/' element={<MainHome />}/>
+        <Route path='/aboutme'  element={<Aboutme />}/>
+      </Routes>
+      
+
+      
+      {/* <Home />
       <About />
       <Services />
       <Skills />
       <Portfolio />
       <Contact />
+      <Footer /> */}
       <Footer />
     </div>
   );

@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import { assets } from '../../assets/assets'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -29,7 +30,10 @@ const About = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget arcu vitae neque semper fermentum hendrerit quis massa. Sed vel magna neque. Integer in velit ut neque fermentum congue in a justo. Quisque neque sapien, maximus sit amet tempus et, interdum nec est. Nulla facilisi. Quisque dapibus et nisl in convallis. Ut rutrum eget velit in aliquet. </p>
 
             <div className='btnBox'>
-                <a href="" className="btn"> Read More</a>
+                <Link to={"/aboutme"} target='_blank'>
+                    <a className="btn"> Read More</a>
+                </Link>
+                
             </div>
        </div>
     </div>
