@@ -2,9 +2,12 @@ import profileImage from './profileImage.png'
 import contact1 from './contact1.jpeg'
 import contact2 from './contact2.jpeg'
 import contact3 from './contact3.jpeg'
+import MyprofileImage from './MyprofileImage.png'
+import myProfilePhoto from './myProfilePhoto.png'
+import profilephoto from './profilephoto.png'
 
 export const assets ={
-    profileImage, contact1, contact2, contact3
+    profileImage, contact1, contact2, contact3, MyprofileImage, myProfilePhoto,profilephoto
 }
 
 export const projectData = [

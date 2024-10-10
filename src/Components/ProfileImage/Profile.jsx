@@ -8,7 +8,7 @@ const Profile = () => {
     <div>
         <div className='profileImage'>
             <div className='imageBox'>
-                <img src={assets.profileImage} alt="profile" />
+                <img src={assets.myProfilePhoto} alt="profile" />
             </div>
             <div className="liquidShape">
                 <svg 
