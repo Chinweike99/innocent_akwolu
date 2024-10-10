@@ -19,7 +19,7 @@ const Footer = () => {
     <div className='footer'>
         <div className="footerTop">
             <div className="footerTopLeft">
-                <span>Innocent</span>
+                <span>Chinweike</span>
                 <p>I am a frontend developer, from Nigeria with 2 years of epxperience</p>
             </div>
 

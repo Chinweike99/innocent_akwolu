@@ -12,7 +12,6 @@ const Services = () => {
             <span>What i would do for you.</span>
             
         </div>
-
         <div className="serviceSection">
             <div className="serviceBox">
                 <LaptopMacIcon className='serviceIcon'/>
@@ -20,9 +19,6 @@ const Services = () => {
                 <p>
                 I develop modern web applications using HTML, CSS, and JavaScript, with a focus on React.js within the MERN stack (MongoDB, Express, React, Node.js).
                 </p>
-                {/* <div className='btnBox serviceBtn'>
-                    <a href="" className="btn">Read more</a>
-                </div> */}
             </div>
             <div className="serviceBox">
                 <CodeIcon  className='serviceIcon'/>

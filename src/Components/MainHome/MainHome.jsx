@@ -1,6 +1,5 @@
 import React from 'react'
 import Home from '../Home/Home'
-import About from '../About/About'
 import Services from '../Services/Services'
 import Skills from '../Skills/Skills'
 import Portfolio from '../Portfolio/Portfolio'
@@ -13,7 +12,7 @@ const MainHome = () => {
     <div>
         <Header />
       <Home />
-      <About />
+      {/* <About /> */}
       <Services />
       <Skills />
       <Portfolio />

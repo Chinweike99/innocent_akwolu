@@ -11,12 +11,8 @@
     justify-content: space-between;
     gap: 10rem;
 }
-/* .footerTopLeft p{
-    font-size: 20px;
-} */
 
 .footerTopRight{
-    /* flex: 1; */
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -45,12 +41,6 @@
     font-size: 1rem;
     color: var(--text-color);
 }
-/* .subscribe{
-    font-size: 1.2rem;
-    padding: 0.9rem 1.4rem;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106%);
-    border-radius: 5px;
-} */
 .subscribe{
     justify-content: center;
     align-items: center;

@@ -70,4 +70,7 @@
     .serviceBox h3{
         font-size: 1.2rem;
     }
+    .serviceSection{
+        flex-direction: row;
+    }
 }

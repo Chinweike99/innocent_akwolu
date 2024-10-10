@@ -4,17 +4,17 @@
   }
   
   .circular-progress-svg {
-    transform: rotate(-90deg); /* Rotate to start progress from the top */
+    transform: rotate(-90deg); 
   }
   
   .circular-progress-background {
-    stroke: #e6e6e6; /* Background of the progress bar */
+    stroke: #e6e6e6;
   }
   
   .circular-progress-bar {
-    stroke: var(--hover-color); /* Color of the progress bar */
-    stroke-linecap: round; /* Rounded edges */
-    transition: stroke-dashoffset 1.5s ease; /* Smooth animation for progress fill */
+    stroke: var(--hover-color);
+    stroke-linecap: round; 
+    transition: stroke-dashoffset 1.5s ease;
     box-shadow: var(--neon-box-shadow);
   }
   

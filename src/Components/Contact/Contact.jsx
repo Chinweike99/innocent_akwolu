@@ -17,11 +17,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-    
         emailjs
-          // .sendForm('service_rxxipfn', 'template_q9z3mvx', form.current, {
-          //   publicKey: 'FqH2gebxDzRG5hqvo',
-          // })
           .sendForm(serviceId, templateId, form.current, {
             publicKey: publicKey
           })
@@ -45,7 +41,6 @@ const Contact = () => {
             <span>Ask me a question</span>
             <h2>Get in touch</h2>
         </div>
-
         <div className="contactSection">
             <div className="contactLeft">
                 <h1>Let's talk</h1>

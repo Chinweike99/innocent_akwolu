@@ -1,5 +1,4 @@
-.about{
-    /* height: 100vh; */
+/* .about{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +12,6 @@
     position: relative;
 }
 .aboutMe img{
-    /* max-width: 400px; */
     height: auto;
 }
 
@@ -79,7 +77,6 @@
 
 
 
-/* ********************** KeyFrames ****************** */
 @keyframes morph{
     0%, 100%{
         border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
@@ -100,7 +97,6 @@
 
 @media screen and (max-width: 720px){
     .about{
-        /* flex-direction: column; */
         flex-direction: column-reverse;
 
     }
@@ -138,4 +134,4 @@
       width: 25rem;
   }
 
-}
+} */

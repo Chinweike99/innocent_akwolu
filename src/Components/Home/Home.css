@@ -8,7 +8,6 @@
     grid-gap: 4rem;
 }
 .homeContent{
-    /* max-width: 600px; */
     margin-top: 2rem;
     flex: 1;
 }
@@ -46,7 +45,6 @@
 .btnBox{
     display: flex;
     gap: 1.5rem;
-    /* width: 320ox; */
     height: 45px;
     cursor: pointer;
 }
@@ -97,7 +95,6 @@ a.btn:nth-child(2):hover{
 }
 
 
-/* ********** SOCIAL ICONS ************ */
 .socialsIcon{
     margin-top: 4rem;
     display: flex;
@@ -109,7 +106,6 @@ a.btn:nth-child(2):hover{
 .socialsIcon a{
     display: inline-flex;
     width: 50px;
-    /* height: 100%; */
     justify-content: center;
     align-items: center;
     background: var(--bg-color);
@@ -124,9 +120,6 @@ a.btn:nth-child(2):hover{
     background: var(--hover-color);
     color: var(--bg-color);
 }
-
-
-/* ************* Home Image ************* */
 .profileImage{
     position: relative;
 }
