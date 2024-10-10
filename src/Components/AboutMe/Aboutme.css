@@ -7,6 +7,14 @@
     text-align: justify;
     font-size: 1.2rem;
 }
+h4{
+    margin: 1rem auto;
+}
+.aboutme a{
+    padding-top: 2rem;
+    color: #98a5d1;
+    font-size: 0.8rem;
+}
 
 @media screen and (max-width: 720px){
     .aboutme p{
