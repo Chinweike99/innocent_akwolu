@@ -23,7 +23,6 @@
     color: #ffff;
     line-height: 1.2;
     font-size: 1.5rem;
-    text-align: center;
     margin: 1rem auto;
     margin-bottom: 3rem;
 }
@@ -161,6 +160,7 @@ a.btn:nth-child(2):hover{
     }
     .home p{
         font-size: 1.2rem;
+        text-align: center;
     }
     .homeContent{
         display: flex;
