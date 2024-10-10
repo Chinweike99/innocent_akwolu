@@ -12,31 +12,31 @@ const Header = () => {
         <div className='header'>
             <div className='logo'><span>Chin</span>weike</div>
             <ul className='navlist'>
-                <li> <AnchorLink className="anchorLink" offset={200} href="#home"><a>Home</a></AnchorLink> </li>
+                <li> <AnchorLink className="anchorLink" offset={200} href="#home">Home</AnchorLink> </li>
                 <li>
                     <Link to={'/aboutme'}>
-                        <a >About</a> 
+                        About
                     </Link>
                 </li>
 
-                <li> <AnchorLink className="anchorLink" offset={50} href="#services"><a >Services</a></AnchorLink> </li>
-                <li> <AnchorLink className="anchorLink" offset={50} href="#skills"><a>Skills</a></AnchorLink> </li>
-                <li> <AnchorLink className="anchorLink" offset={280} href="#portfolio"><a>Projects</a></AnchorLink> </li>
-                <li> <AnchorLink className="anchorLink" offset={50} href="#contact"><a>Contact</a></AnchorLink> </li>
+                <li> <AnchorLink className="anchorLink" offset={50} href="#services">Services</AnchorLink> </li>
+                <li> <AnchorLink className="anchorLink" offset={50} href="#skills">Skills</AnchorLink> </li>
+                <li> <AnchorLink className="anchorLink" offset={280} href="#portfolio">Projects</AnchorLink> </li>
+                <li> <AnchorLink className="anchorLink" offset={50} href="#contact">Contact</AnchorLink> </li>
             </ul>
 
             {showDrop ? 
             <ul className='dropList'>
-                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={200} href="#home"><a>Home</a></AnchorLink> </li>
+                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={200} href="#home">Home</AnchorLink> </li>
                 <li onClick={()=>setShowDrop(false)}>
                     <Link to={'/aboutme'}>
-                        <a >About</a> 
+                        About
                     </Link>
                 </li>
-                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#services"><a >Services</a></AnchorLink> </li>
-                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#skills"><a>Skills</a></AnchorLink> </li>
-                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={280} href="#portfolio"><a>Projects</a></AnchorLink> </li>
-                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#contact"><a>Contact</a></AnchorLink> </li>
+                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#services">Services</AnchorLink> </li>
+                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#skills">Skills</AnchorLink> </li>
+                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={280} href="#portfolio">Projects</AnchorLink> </li>
+                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#contact">Contact</AnchorLink> </li>
             </ul>
             : null}
 

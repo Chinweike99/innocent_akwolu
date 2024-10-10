@@ -12,7 +12,6 @@ const Contact = () => {
     const templateId = process.env.REACT_APP_TEMPLATEID;
     const publicKey = process.env.REACT_APP_PUBLICID;
 
-    console.log(serviceId, templateId, publicKey)
 
     const notify = () => toast("Message Sucesful!");
     const form = useRef();

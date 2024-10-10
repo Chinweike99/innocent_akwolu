@@ -52,7 +52,7 @@
     height: 45px;
     cursor: pointer;
 }
-.btnBox a.btn{
+.btnBox span.btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -69,11 +69,11 @@
     z-index: 1;
     border: 2px solid var(--hover-color);
 }
-a.btn:hover{
+span.btn:hover{
     color: #fff;
 }
 
-a.btn::before{
+span.btn::before{
     content: "";
     position: absolute;
     width: 0;
@@ -84,17 +84,17 @@ a.btn::before{
     z-index: -1;
     transition: 0.4s;
 }
-a.btn:hover::before{
+span.btn:hover::before{
     width: 100%;
 }
-a.btn:nth-child(2){
+span.btn:nth-child(2){
     background: var(--bg-color);
     color: var(--hover-color);
 }
 a.btn:nth-child(2)::before{
     background: var(--bg-color);
 }
-a.btn:nth-child(2):hover{
+span.btn:nth-child(2):hover{
     color: var(--bg-color);
 }
 

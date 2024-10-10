@@ -21,9 +21,9 @@ const Home = () => {
             </p>
 
             <div className="btnBox">
-                <a className='btn'>Download cv </a>
+                <span className='btn'>Download cv </span>
                 <AnchorLink offset={50} href="#contact">
-                    <a className="btn">Hire me</a>
+                    <span className="btn">Hire me</span>
                 </AnchorLink>
             </div>
 
