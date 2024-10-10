@@ -75,7 +75,7 @@
     
 }
 
-@media (min-width: 709px) and (max-width: 900px){
+@media (min-width: 709px) and (max-width: 1000px){
     .serviceSection{
         display: flex;
         flex-direction: column;
