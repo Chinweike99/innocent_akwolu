@@ -34,7 +34,6 @@ const Header = () => {
                         <a >About</a> 
                     </Link>
                 </li>
-                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#about"><a >About</a></AnchorLink> </li>
                 <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#services"><a >Services</a></AnchorLink> </li>
                 <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#skills"><a>Skills</a></AnchorLink> </li>
                 <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={280} href="#portfolio"><a>Portfolio</a></AnchorLink> </li>
