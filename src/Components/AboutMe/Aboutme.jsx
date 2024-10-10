@@ -31,10 +31,11 @@ const Aboutme = () => {
                 I’m proficient in JavaScript, React, Node.js, and MongoDB, with hands-on experience in developing both front-end and back-end systems. <br />
                 My focus is on crafting clean, user-friendly interfaces and delivering seamless user experiences.
             </p>
-
+                <br /><br />
             <p>
                 Outside of coding, I enjoy exploring new technologies, hanging out with friends, or watching a good movie.
             </p>
+            <br />
             <br />
             <a href="https://www.linkedin.com/in/innocent-akwolu-5096a5238/" target='_blank'>
                 Feel free to reach out if you're interested  in collaboration or have any exciting projects to discuss.
