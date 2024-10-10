@@ -1,5 +1,4 @@
 .aboutme{
-    /* height: 100vh; */
     padding: 6rem 7%;
     margin-bottom: 15rem;
 }
@@ -7,4 +6,10 @@
 .aboutme p{
     text-align: justify;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 720px){
+    .aboutme p{
+        font-size: 0.8rem;
+    }
 }
