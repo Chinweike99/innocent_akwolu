@@ -16,8 +16,9 @@ const Services = () => {
             <div className="serviceBox">
                 <LaptopMacIcon className='serviceIcon'/>
                 <h3>Web Development</h3>
-                <p>
+                <p><small>
                 I develop modern web applications using HTML, CSS, and JavaScript, with a focus on React.js within the MERN stack (MongoDB, Express, React, Node.js).
+                </small>
                 </p>
             </div>
             <div className="serviceBox">
