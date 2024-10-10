@@ -92,7 +92,7 @@ a.btn:nth-child(2){
     color: var(--hover-color);
 }
 a.btn:nth-child(2)::before{
-    background: var(--hover-color);
+    background: var(--bg-color);
 }
 a.btn:nth-child(2):hover{
     color: var(--bg-color);

@@ -6,6 +6,7 @@ import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Profile from '../ProfileImage/Profile';
 import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Home = () => {
   return (
@@ -21,7 +22,9 @@ const Home = () => {
 
             <div className="btnBox">
                 <a className='btn'>Download cv </a>
-                <a className="btn">Hire me</a>
+                <AnchorLink offset={50} href="#contact">
+                    <a className="btn">Hire me</a>
+                </AnchorLink>
             </div>
 
             <div className="socialsIcon">

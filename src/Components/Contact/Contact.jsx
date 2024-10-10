@@ -23,6 +23,7 @@ const Contact = () => {
           })
           .then(
             () => {
+              notify();
               console.log('SUCCESS!');
             },
             (error) => {
@@ -31,9 +32,6 @@ const Contact = () => {
           );
           return form.current.reset();
       };
-
-      console.log(serviceId, templateId, publicKey);
-
 
   return (
     <div id='contact' className='contact'>
@@ -64,15 +62,15 @@ const Contact = () => {
 
            <form ref={form} onSubmit={sendEmail} className="contactRight">
                 <label htmlFor="">Your name</label>
-                <input type="text"  placeholder='Enter your name' name="user_name"/>
+                <input type="text"  placeholder='Enter your name' name="user_name" required/>
 
                 <label htmlFor="">Your email</label>
-                <input type="text" placeholder='Enter your email address' name="user_email"/>
+                <input type="text" placeholder='Enter your email address' name="user_email" required/>
 
                 <label htmlFor="">Write your message</label>
-                <textarea name="message" rows={"10"} placeholder='Enter your message'></textarea>
+                <textarea required name="message" rows={"10"} placeholder='Enter your message'></textarea>
 
-                <button type='submit' onClick={notify} value="Send" className='contactSubmit'>Submit</button>
+                <button type='submit' value="Send" className='contactSubmit' required>Submit</button>
            </form>
         </div>
 
