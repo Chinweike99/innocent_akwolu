@@ -35,7 +35,7 @@ const Portfolio = () => {
                     <span>{project.name}</span>
                     <span>{project.about}</span>
                   </div>
-                  <img src={project.image} alt="" />
+                  <img src={project.image} alt="project_website" />
                 </a>
                 )
               })

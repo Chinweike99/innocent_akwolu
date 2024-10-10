@@ -10,9 +10,8 @@ import Header from '../Header/Header'
 const MainHome = () => {
   return (
     <div>
-        <Header />
+      <Header />
       <Home />
-      {/* <About /> */}
       <Services />
       <Skills />
       <Portfolio />

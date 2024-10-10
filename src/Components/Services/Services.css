@@ -29,6 +29,9 @@
     flex-wrap: wrap;
     grid-gap: 2rem;
 }
+.serviceSection p{
+    font-size: 1.1rem;
+}
 
 .serviceSection .serviceBox{
     margin-top: 2rem;
