@@ -34,26 +34,5 @@ export const projectData = [
         image: contact1,
         about: "Advanced e-commerced website built with Reactjs",
         link: "https://estore-pied-theta.vercel.app/"
-    },
-    {
-        _id: 4,
-        title: "chat-app",
-        name: "Media App",
-        image: contact2,
-        about: "Social media web app built with JavaScript"
-    },
-    {
-        _id: 5,
-        title: "ecommerce",
-        name: "E-commerce",
-        image: contact3,
-        about: "E-commerce web app built with Reacjs"
-    },
-    {
-        _id: 6,
-        title: "ecommerce",
-        name: "E-commerce website",
-        image: contact1,
-        about: "Advanced e-commerced website built with Reactjs"
-    },
+    }
 ]

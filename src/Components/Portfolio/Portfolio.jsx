@@ -21,8 +21,7 @@ const Portfolio = () => {
         <div className="filterButtons">
           <div onClick={()=>setProjects(projectData)} className="btn">All</div>
           <div onClick={()=>getCurrent("ecommerce")} className="btn">E-commerce</div>
-          <div className="btn">Interacting</div>
-          <div onClick={()=>getCurrent("chat-app")} className="btn">Web App</div>
+          <div onClick={()=>getCurrent("chat-app")} className="btn">Web-App</div>
         </div>
 
         <div className="portFolioGallery">

@@ -4,7 +4,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'react-router-dom';
 
-
 const Header = () => {
   const [showDrop, setShowDrop] = useState(false);
 
@@ -22,7 +21,7 @@ const Header = () => {
 
                 <li> <AnchorLink className="anchorLink" offset={50} href="#services"><a >Services</a></AnchorLink> </li>
                 <li> <AnchorLink className="anchorLink" offset={50} href="#skills"><a>Skills</a></AnchorLink> </li>
-                <li> <AnchorLink className="anchorLink" offset={280} href="#portfolio"><a>Portfolio</a></AnchorLink> </li>
+                <li> <AnchorLink className="anchorLink" offset={280} href="#portfolio"><a>Projects</a></AnchorLink> </li>
                 <li> <AnchorLink className="anchorLink" offset={50} href="#contact"><a>Contact</a></AnchorLink> </li>
             </ul>
 
@@ -36,7 +35,7 @@ const Header = () => {
                 </li>
                 <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#services"><a >Services</a></AnchorLink> </li>
                 <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#skills"><a>Skills</a></AnchorLink> </li>
-                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={280} href="#portfolio"><a>Portfolio</a></AnchorLink> </li>
+                <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={280} href="#portfolio"><a>Projects</a></AnchorLink> </li>
                 <li onClick={()=>setShowDrop(false)}> <AnchorLink className="anchorLink" offset={50} href="#contact"><a>Contact</a></AnchorLink> </li>
             </ul>
             : null}
