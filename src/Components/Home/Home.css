@@ -162,6 +162,7 @@ span.btn:nth-child(2):hover{
     .home p{
         font-size: 1.2rem;
         text-align: center;
+        width: 100%;
     }
     .homeContent{
         display: flex;
