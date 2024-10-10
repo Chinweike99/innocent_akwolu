@@ -36,7 +36,7 @@ const Aboutme = () => {
                 Outside of coding, I enjoy exploring new technologies, hanging out with friends, or watching a good movie.
             </p>
             <br />
-            <a href="https://www.linkedin.com/in/innocent-akwolu-5096a5238/">
+            <a href="https://www.linkedin.com/in/innocent-akwolu-5096a5238/" target='_blank'>
                 Feel free to reach out if you're interested  in collaboration or have any exciting projects to discuss.
             </a>
 
