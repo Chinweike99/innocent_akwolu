@@ -10,7 +10,9 @@ import { toast } from 'react-toastify';
 const Contact = () => {
     const serviceId = process.env.REACT_APP_SERVICEID;
     const templateId = process.env.REACT_APP_TEMPLATEID;
-    const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+    const publicKey = process.env.REACT_APP_PUBLICID;
+
+    console.log(serviceId, templateId, publicKey)
 
     const notify = () => toast("Message Sucesful!");
     const form = useRef();
@@ -18,9 +20,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
-          .sendForm(serviceId, templateId, form.current, {
-            publicKey: publicKey
-          })
+          .sendForm(serviceId, templateId, form.current, publicKey)
           .then(
             () => {
               notify();
@@ -73,7 +73,6 @@ const Contact = () => {
                 <button type='submit' value="Send" className='contactSubmit' required>Submit</button>
            </form>
         </div>
-
 
     </div>
   )
