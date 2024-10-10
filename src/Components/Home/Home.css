@@ -26,6 +26,10 @@
     margin: 1rem auto;
     margin-bottom: 3rem;
 }
+
+.readmore{
+    font-size: 0.9rem;
+}
 .infoBox{
     display: inline-flex;
     justify-content: space-between;

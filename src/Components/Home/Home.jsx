@@ -12,9 +12,9 @@ const Home = () => {
     <div id='home' className='home'>
         <div className='homeContent'>
             <h1>Hello 👋!. </h1>
-            <p>I’m Chinweike, a software developer from Nigeria. <br /> I specialize in front-end development but also have experience building full-stack web applications using the MERN stack.
+            <p>I’m Chinweike, a software developer from Nigeria. <br /> I specialize in front-end development but also have experience building full-stack web applications using the MERN stack...
             <Link to={"/aboutme"}>
-                <span>Read more</span>
+                <span className='readmore'>Read more</span>
             </Link>
             
             </p>
