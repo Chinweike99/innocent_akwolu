@@ -53,14 +53,19 @@
     height: 45px;
     cursor: pointer;
 }
+
+.btnBox span.btn a{
+    color: #fff;
+}
+
 .btnBox span.btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 150px;
     height: 100%;
-    background: var(--hover-color);
-    color: var(--bg-color);
+    /* background: var(--hover-color); */
+    color: #fff;
     border-radius: 5px;
     font-size: 1.2rem;
     font-weight: 500;
@@ -70,9 +75,11 @@
     z-index: 1;
     border: 2px solid var(--hover-color);
 }
+
 span.btn:hover{
     color: #fff;
 }
+
 
 span.btn::before{
     content: "";
