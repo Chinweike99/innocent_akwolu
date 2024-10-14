@@ -21,7 +21,12 @@ const Home = () => {
             </p>
 
             <div className="btnBox">
-                <span className='btn'>Download cv </span>
+
+                <span className='btn'>
+                    <a href="https://docs.google.com/document/d/1vhlHWPKn6PxvCzHqhsvrui4Rd3afGp_Et59J48L7NfM/edit?usp=drivesdk" target='_blank'>
+                        Download cv 
+                    </a>
+                </span>
                 <AnchorLink offset={50} href="#contact">
                     <span className="btn">Hire me</span>
                 </AnchorLink>
