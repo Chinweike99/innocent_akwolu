@@ -23,7 +23,7 @@ const Home = () => {
             <div className="btnBox">
 
                 <span className='btn'>
-                    <a href="https://1drv.ms/b/c/aff07f54ea54a372/EY_4VAnTFSJLizkgl5ildSMBFtPr8l2DWH7TKoV-QN4nHQ" target='_blank' >
+                    <a href="https://1drv.ms/b/c/988ee7b89f3aed84/EX9D0-qnNTxGmczWjQ010-cBM9UE4VgmIqxpYRty9vj9og" target='_blank' >
                         Download cv 
                     </a>
                 </span>
