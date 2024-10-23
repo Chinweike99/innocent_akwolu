@@ -5,6 +5,7 @@ import contact3 from './contact3.jpeg'
 import MyprofileImage from './MyprofileImage.png'
 import myProfilePhoto from './myProfilePhoto.png'
 import profilephoto from './profilephoto.png'
+import skillup from './skillup.png'
 
 export const assets ={
     profileImage, contact1, contact2, contact3, MyprofileImage, myProfilePhoto,profilephoto
@@ -34,5 +35,13 @@ export const projectData = [
         image: contact1,
         about: "Advanced e-commerced website built with Reactjs",
         link: "https://estore-pied-theta.vercel.app/"
+    },
+    {
+        _id: 4,
+        title: "skillup",
+        name: "skillUp",
+        image: skillup,
+        about: "Platform that connects mentors and learners of diverse fields",
+        link: "https://skill-up-model-a1zp.vercel.app/"
     }
 ]
