@@ -38,10 +38,10 @@ export const projectData = [
     },
     {
         _id: 4,
-        title: "skillup",
+        title: "chat-app",
         name: "skillUp",
         image: skillup,
-        about: "Platform that connects mentors and learners of diverse fields",
+        about: "A unique platform that connects mentors and learners of diverse fields.",
         link: "https://skill-up-model-a1zp.vercel.app/"
     }
 ]
