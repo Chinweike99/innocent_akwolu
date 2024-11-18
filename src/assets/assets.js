@@ -36,12 +36,12 @@ export const projectData = [
         about: "Advanced e-commerced website built with Reactjs",
         link: "https://estore-pied-theta.vercel.app/"
     },
-    {
-        _id: 4,
-        title: "chat-app",
-        name: "skillUp",
-        image: skillup,
-        about: "A unique platform that connects mentors and learners of diverse fields.",
-        link: "https://skill-up-phi.vercel.app/"
-    }
+    // {
+    //     _id: 4,
+    //     title: "chat-app",
+    //     name: "skillUp",
+    //     image: skillup,
+    //     about: "A unique platform that connects mentors and learners of diverse fields.",
+    //     link: "https://skill-up-phi.vercel.app/"
+    // }
 ]
